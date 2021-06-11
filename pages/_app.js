@@ -10,7 +10,7 @@ const MyApp = ({ Component, pageProps }) => {
         <a>About</a>
       </Link>
       <Component {...pageProps} />
-      <footer>Copyright&#169;2021 Tim Dorsett, All rights reserved.</footer>
+      <footer>Copyright&#169;{new Date().getFullYear()} Tim Dorsett, All rights reserved.</footer>
     </>
   );
 };
